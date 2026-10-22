@@ -292,7 +292,7 @@ It should work and your Acer E5-571-30k3  should boot and operate correctly. **A
 > #### Video and Audio
 | Feature                              | Status | Dependency          | Remarks                      |
 | :----------------------------------- | ------ | ------------------- | ---------------------------- |
-| Full Graphics Accleration            | ✅ | `WhateverGreen.kext` | OCLP 2.4.1 is need from Ventura to Sequoia and no graphic accel from Lion to ML |
+| Full Graphics Accleration            | ✅ | `WhateverGreen.kext` | OCLP 2.4.1 is need from Ventura to Sequoia and no graphic accel from Tiger to ML |
 | Audio Output (Front/Back)            | ✅ | `SSDT-HPET.aml`, `AppleALC.kext` with Layout ID = 15 and `VoodooHDA-FAT.kext` |  |
 | Audio Input (Front/Back)             | ✅ | `SSDT-HPET.aml`, `AppleALC.kext` with Layout ID = 15 and `VoodooHDA-FAT.kext` |  |
 | Internal Speaker                     | ✅ | `SSDT-HPET.aml`, `AppleALC.kext` with Layout ID = 15 and `VoodooHDA-FAT.kext` |  |
@@ -955,7 +955,7 @@ The following Quirks are used:
   - [1alessandro1/HP-Prodesk-600-G1-SFF-macOS](https://github.com/1alessandro1/HP-Prodesk-600-G1-SFF-macOS)
 
 - **Acer-E5-572-TMP246-OpenCore:**
-  - [chris1111/macOS-Package-HP-Prodesk-600-G1](https://github.com/sebasrock156/Acer-E5-572-TMP246-OpenCore)
+  - [sebasrock156/Acer-E5-572-TMP246-OpenCore](https://github.com/sebasrock156/Acer-E5-572-TMP246-OpenCore)
 
 </br>
 
