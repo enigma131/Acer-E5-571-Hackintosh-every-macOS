@@ -373,6 +373,7 @@ Then we need to copy it to the USB installer, to the disk after installation, an
 | SSDT-PNLF | Used for Backlight Level Control |
 | SSDT-ARPT | Add ACPI name for WiFi Card, need for OCLP |
 | SSDT-SBUS-MCHC | Defines an MCHC and BUS0 device for SMBus compatibility SSDTTime |
+| SSDT-FNQ11Q12 | Remap Brightness PS2 Keys for ApplePS2Keyboard |
 
 </br>
 
