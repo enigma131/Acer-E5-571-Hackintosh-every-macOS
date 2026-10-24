@@ -220,6 +220,7 @@ Embedded internal AR3012 Usb device:
 - Mac OS X Tiger through Yosemite: use EMlyDinEsH based kext [BTFirmwareUploader](https://github.com/EMlyDinEsHMG/BTFirmwareUploader) , recompiled FAT version.  
 - El Capitan and up: use zxystd [AthBluetoothFirmware](https://github.com/zxystd/AthBluetoothFirmware). Configuration in kext's info.plist  
 - Rewrite `BlueToolFixup.kext` for macOS Monterey and later. See my repo: [BrcmPatchRAM](https://github.com/enigma131/BrcmPatchRAM)  
+- Some MacOS need Post-install instructions for Bluetooth, see relevant sections.  
 
 </br>
 
@@ -1167,6 +1168,8 @@ Install all available updates, including 10.6.8 using "Software Update".
 
 - Open terminal, and rebuild cache via : sudo touch /S*/L*/E* && sudo kextcache -u /
 
+- Open [BT.zip](Bluetooth/BT.zip) and apply WifiOffOn.txt from WifiOffOn folder.  
+
 
 </details>
 
@@ -1224,6 +1227,8 @@ Install all available updates using "Software Update".
 - Replace patched AirPortAtheros40 binary and Info.plist in /S/L/E by using Lion folder in [Wifi.zip](Wifi/Wifi.zip).
 
 - Open terminal, and rebuild cache via : sudo touch /S*/L*/E* && sudo kextcache -u /
+
+- Open [BT.zip](Bluetooth/BT.zip) and apply WifiOffOn.txt from WifiOffOn folder.  
 
 
 </details>
@@ -1285,6 +1290,9 @@ There's only one update available that we can install. Download [Security Update
 - Replace patched AirPortAtheros40 binary and Info.plist in /S/L/E by using MountainLion folder in [Wifi.zip](Wifi/Wifi.zip).
 
 - Open terminal, and rebuild cache via : sudo touch /S*/L*/E* && sudo kextcache -u /
+
+- Open [BT.zip](Bluetooth/BT.zip) and apply WifiOffOn.txt from WifiOffOn folder.  
+
 
 </details>
 
@@ -1389,6 +1397,7 @@ Install all available updates using "Mac App Store".
 
 - Open terminal, and rebuild cache via : sudo touch /S*/L*/E* && sudo kextcache -u /
 
+- Open [BT.zip](Bluetooth/BT.zip) and apply WifiOffOn.txt from WifiOffOn folder.  
 
 
 </details>
@@ -1621,7 +1630,9 @@ installer -pkg /Volumes/Mac\ OS\ X\ Install\ DVD/Packages/OSInstall.mpkg -target
 
 Install all available updates using "Mac App Store".
 
-Replace patched AirPortAtheros40 binary and Info.plist in /S/L/E by using Sierra folder in [Wifi.zip](Wifi/Wifi.zip).
+- Replace patched AirPortAtheros40 binary and Info.plist in /S/L/E by using Sierra folder in [Wifi.zip](Wifi/Wifi.zip).
+
+- Replace patched BroadcomBluetoothHostControllerUSBTransport binary in /S/L/E by using Sierra folder in [BT.zip](Bluetooth/BT.zip).
 
 Open terminal, and rebuild cache via : sudo kextcache -i /
 
